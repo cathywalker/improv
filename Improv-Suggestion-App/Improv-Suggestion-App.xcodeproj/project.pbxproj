@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACB25602A5B1007002A0CF4 /* Improv_Suggestion_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB255F2A5B1007002A0CF4 /* Improv_Suggestion_AppApp.swift */; };
+		DACB25622A5B1007002A0CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB25612A5B1007002A0CF4 /* ContentView.swift */; };
+		DACB25642A5B100A002A0CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB25632A5B100A002A0CF4 /* Assets.xcassets */; };
+		DACB25672A5B100A002A0CF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB25662A5B100A002A0CF4 /* Preview Assets.xcassets */; };
+		DACB25692A5B100A002A0CF4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB25682A5B100A002A0CF4 /* Item.swift */; };
+		DACB25752A5B100A002A0CF4 /* Improv_Suggestion_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB25742A5B100A002A0CF4 /* Improv_Suggestion_AppTests.swift */; };
+		DACB257F2A5B100A002A0CF4 /* Improv_Suggestion_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB257E2A5B100A002A0CF4 /* Improv_Suggestion_AppUITests.swift */; };
+		DACB25812A5B100A002A0CF4 /* Improv_Suggestion_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB25802A5B100A002A0CF4 /* Improv_Suggestion_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACB25712A5B100A002A0CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACB25542A5B1007002A0CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACB255B2A5B1007002A0CF4;
+			remoteInfo = "Improv-Suggestion-App";
+		};
+		DACB257B2A5B100A002A0CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACB25542A5B1007002A0CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACB255B2A5B1007002A0CF4;
+			remoteInfo = "Improv-Suggestion-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DACB255C2A5B1007002A0CF4 /* Improv-Suggestion-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Improv-Suggestion-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB255F2A5B1007002A0CF4 /* Improv_Suggestion_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improv_Suggestion_AppApp.swift; sourceTree = "<group>"; };
+		DACB25612A5B1007002A0CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DACB25632A5B100A002A0CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACB25662A5B100A002A0CF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DACB25682A5B100A002A0CF4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DACB256A2A5B100A002A0CF4 /* Improv_Suggestion_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Improv_Suggestion_App.entitlements; sourceTree = "<group>"; };
+		DACB256B2A5B100A002A0CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACB25702A5B100A002A0CF4 /* Improv-Suggestion-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Improv-Suggestion-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB25742A5B100A002A0CF4 /* Improv_Suggestion_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improv_Suggestion_AppTests.swift; sourceTree = "<group>"; };
+		DACB257A2A5B100A002A0CF4 /* Improv-Suggestion-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Improv-Suggestion-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACB257E2A5B100A002A0CF4 /* Improv_Suggestion_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improv_Suggestion_AppUITests.swift; sourceTree = "<group>"; };
+		DACB25802A5B100A002A0CF4 /* Improv_Suggestion_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Improv_Suggestion_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACB25592A5B1007002A0CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB256D2A5B100A002A0CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB25772A5B100A002A0CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACB25532A5B1007002A0CF4 = {
+			isa = PBXGroup;
+			children = (
+				DACB255E2A5B1007002A0CF4 /* Improv-Suggestion-App */,
+				DACB25732A5B100A002A0CF4 /* Improv-Suggestion-AppTests */,
+				DACB257D2A5B100A002A0CF4 /* Improv-Suggestion-AppUITests */,
+				DACB255D2A5B1007002A0CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACB255D2A5B1007002A0CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACB255C2A5B1007002A0CF4 /* Improv-Suggestion-App.app */,
+				DACB25702A5B100A002A0CF4 /* Improv-Suggestion-AppTests.xctest */,
+				DACB257A2A5B100A002A0CF4 /* Improv-Suggestion-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACB255E2A5B1007002A0CF4 /* Improv-Suggestion-App */ = {
+			isa = PBXGroup;
+			children = (
+				DACB255F2A5B1007002A0CF4 /* Improv_Suggestion_AppApp.swift */,
+				DACB25612A5B1007002A0CF4 /* ContentView.swift */,
+				DACB25632A5B100A002A0CF4 /* Assets.xcassets */,
+				DACB25682A5B100A002A0CF4 /* Item.swift */,
+				DACB256A2A5B100A002A0CF4 /* Improv_Suggestion_App.entitlements */,
+				DACB256B2A5B100A002A0CF4 /* Info.plist */,
+				DACB25652A5B100A002A0CF4 /* Preview Content */,
+			);
+			path = "Improv-Suggestion-App";
+			sourceTree = "<group>";
+		};
+		DACB25652A5B100A002A0CF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DACB25662A5B100A002A0CF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DACB25732A5B100A002A0CF4 /* Improv-Suggestion-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DACB25742A5B100A002A0CF4 /* Improv_Suggestion_AppTests.swift */,
+			);
+			path = "Improv-Suggestion-AppTests";
+			sourceTree = "<group>";
+		};
+		DACB257D2A5B100A002A0CF4 /* Improv-Suggestion-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DACB257E2A5B100A002A0CF4 /* Improv_Suggestion_AppUITests.swift */,
+				DACB25802A5B100A002A0CF4 /* Improv_Suggestion_AppUITestsLaunchTests.swift */,
+			);
+			path = "Improv-Suggestion-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACB255B2A5B1007002A0CF4 /* Improv-Suggestion-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB25842A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-App" */;
+			buildPhases = (
+				DACB25582A5B1007002A0CF4 /* Sources */,
+				DACB25592A5B1007002A0CF4 /* Frameworks */,
+				DACB255A2A5B1007002A0CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Improv-Suggestion-App";
+			productName = "Improv-Suggestion-App";
+			productReference = DACB255C2A5B1007002A0CF4 /* Improv-Suggestion-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACB256F2A5B100A002A0CF4 /* Improv-Suggestion-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB25872A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-AppTests" */;
+			buildPhases = (
+				DACB256C2A5B100A002A0CF4 /* Sources */,
+				DACB256D2A5B100A002A0CF4 /* Frameworks */,
+				DACB256E2A5B100A002A0CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACB25722A5B100A002A0CF4 /* PBXTargetDependency */,
+			);
+			name = "Improv-Suggestion-AppTests";
+			productName = "Improv-Suggestion-AppTests";
+			productReference = DACB25702A5B100A002A0CF4 /* Improv-Suggestion-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DACB25792A5B100A002A0CF4 /* Improv-Suggestion-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACB258A2A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-AppUITests" */;
+			buildPhases = (
+				DACB25762A5B100A002A0CF4 /* Sources */,
+				DACB25772A5B100A002A0CF4 /* Frameworks */,
+				DACB25782A5B100A002A0CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACB257C2A5B100A002A0CF4 /* PBXTargetDependency */,
+			);
+			name = "Improv-Suggestion-AppUITests";
+			productName = "Improv-Suggestion-AppUITests";
+			productReference = DACB257A2A5B100A002A0CF4 /* Improv-Suggestion-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACB25542A5B1007002A0CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DACB255B2A5B1007002A0CF4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DACB256F2A5B100A002A0CF4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DACB255B2A5B1007002A0CF4;
+					};
+					DACB25792A5B100A002A0CF4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DACB255B2A5B1007002A0CF4;
+					};
+				};
+			};
+			buildConfigurationList = DACB25572A5B1007002A0CF4 /* Build configuration list for PBXProject "Improv-Suggestion-App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACB25532A5B1007002A0CF4;
+			productRefGroup = DACB255D2A5B1007002A0CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACB255B2A5B1007002A0CF4 /* Improv-Suggestion-App */,
+				DACB256F2A5B100A002A0CF4 /* Improv-Suggestion-AppTests */,
+				DACB25792A5B100A002A0CF4 /* Improv-Suggestion-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACB255A2A5B1007002A0CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB25672A5B100A002A0CF4 /* Preview Assets.xcassets in Resources */,
+				DACB25642A5B100A002A0CF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB256E2A5B100A002A0CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB25782A5B100A002A0CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACB25582A5B1007002A0CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB25622A5B1007002A0CF4 /* ContentView.swift in Sources */,
+				DACB25692A5B100A002A0CF4 /* Item.swift in Sources */,
+				DACB25602A5B1007002A0CF4 /* Improv_Suggestion_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB256C2A5B100A002A0CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB25752A5B100A002A0CF4 /* Improv_Suggestion_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACB25762A5B100A002A0CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACB257F2A5B100A002A0CF4 /* Improv_Suggestion_AppUITests.swift in Sources */,
+				DACB25812A5B100A002A0CF4 /* Improv_Suggestion_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACB25722A5B100A002A0CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACB255B2A5B1007002A0CF4 /* Improv-Suggestion-App */;
+			targetProxy = DACB25712A5B100A002A0CF4 /* PBXContainerItemProxy */;
+		};
+		DACB257C2A5B100A002A0CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACB255B2A5B1007002A0CF4 /* Improv-Suggestion-App */;
+			targetProxy = DACB257B2A5B100A002A0CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DACB25822A5B100A002A0CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DACB25832A5B100A002A0CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACB25852A5B100A002A0CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Improv-Suggestion-App/Improv_Suggestion_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Improv-Suggestion-App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Improv-Suggestion-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACB25862A5B100A002A0CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Improv-Suggestion-App/Improv_Suggestion_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Improv-Suggestion-App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Improv-Suggestion-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DACB25882A5B100A002A0CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Improv-Suggestion-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Improv-Suggestion-App";
+			};
+			name = Debug;
+		};
+		DACB25892A5B100A002A0CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Improv-Suggestion-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Improv-Suggestion-App";
+			};
+			name = Release;
+		};
+		DACB258B2A5B100A002A0CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Improv-Suggestion-App";
+			};
+			name = Debug;
+		};
+		DACB258C2A5B100A002A0CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z2Q29GNZ33;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.twoblackcats.Improv-Suggestion-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Improv-Suggestion-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACB25572A5B1007002A0CF4 /* Build configuration list for PBXProject "Improv-Suggestion-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB25822A5B100A002A0CF4 /* Debug */,
+				DACB25832A5B100A002A0CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB25842A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB25852A5B100A002A0CF4 /* Debug */,
+				DACB25862A5B100A002A0CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB25872A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB25882A5B100A002A0CF4 /* Debug */,
+				DACB25892A5B100A002A0CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACB258A2A5B100A002A0CF4 /* Build configuration list for PBXNativeTarget "Improv-Suggestion-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACB258B2A5B100A002A0CF4 /* Debug */,
+				DACB258C2A5B100A002A0CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DACB25542A5B1007002A0CF4 /* Project object */;
+}
